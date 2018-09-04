@@ -11,7 +11,7 @@
 
 
 .card-body p{
-  padding-top: 50px;
+  padding-top: 10%;
 }
 
 #text1{
@@ -24,7 +24,7 @@
 }
 
 .vision{
-  padding: 1% 5% 5% 5%;
+  padding: 5% 2% 5% 2%;
 }
 
 .how-section img {
@@ -48,15 +48,15 @@
 
 
 .padded{
-  padding: 5% 0% 3% 0%;
+  padding: 3% 0% 5% 0%;
 }
 
 .faq-col2-padded{
-  padding-top: 3%;
+  padding: 7% 0% 3% 0%;
 }
 
 .testimony{
-  padding-bottom: 7%;
+  padding: 5% 13% 7% 13%;
 }
 
 .testimony img{
@@ -83,4 +83,61 @@
    height: 400px;
    background-size: cover;
    position: relative;
+}
+
+
+.contact-text{
+  padding:4% 5% 0% 0%;
+}
+
+
+.not-clickable{
+  pointer-events: none;
+}
+
+
+.sexy_line {
+    margin: 25px 0;
+    height: 1px;
+    border: 0;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, gray));
+}
+
+.ed-header p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  line-height: 140%;
+  font-weight: 500;
+  margin-top: 10%;
+
+}
+
+.courses{
+    width: 100%;
+    height: auto;
+    /* background-size: cover; */
+    /* background: linear-gradient(white, #00385C); */
+    background-color: #4682B4;
+    position: relative;
+    color:white;
+}
+
+.courses li{
+  margin-top:15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.courses ul {
+  list-style: none;
+}
+
+.margin{
+  margin:4%;
+}
+
+
+.school-intro{
+  padding:2% 10% 3% 10%;
 }
