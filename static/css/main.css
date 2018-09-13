@@ -145,3 +145,52 @@
 .school-intro{
   padding:2% 10% 3% 10%;
 }
+
+
+.proj img{
+  transition: all 0.8s ;
+}
+
+.proj img:hover{
+  transform: scale(1.2);
+
+}
+
+.programs img{
+  transition: transform 1.5s;
+}
+
+.programs img:hover{
+  transform: translate(20px, 20px);
+}
+
+.extra img{
+  transition: transform 1.5s;
+}
+
+.extra img:hover{
+  transform: translate(20px, 20px);
+}
+
+
+#contact a{
+  transition: all 1s;
+}
+
+#contact a:hover{
+  transform: scale(1.2);
+}
+
+
+#home h2{
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.srjc-img img{
+  padding-top: 50%;
+}
+
+.ucsc-img img{
+  padding-top: 300px;
+}

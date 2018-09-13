@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
   <link rel="shortcut icon" href="./static/images/favicon2.ico" type="image/ico" />
   <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <style>
     .navbar .navbar-nav .nav-link:not(.btn) i.fa{
@@ -87,16 +88,16 @@
         </div>
     </nav>
     <!-- End Navbar -->
-    <div class="wrapper" id="home">
+    <div class="wrapper">
         <div class="page-header clear-filter" filter-color="orange">
             <div class="page-header-image" data-parallax="true" style="background-image: url('static/images/ucsc/1.jpg');">
             </div>
             <div class="container">
                 <div class="content-center brand">
-                  <h3 class="h1-seo">Arturo Lopez</h3>
-                  <h3>Programmer | Developer | Student</h3>
+                  <h3 class="h1-seo animated fadeInLeft">Arturo Lopez</h3>
+                  <h3 class="animated fadeInRight">Programmer | Developer | Student</h3>
                   </br>
-                  <a class="btn btn-primary btn-lg"
+                  <a class="btn btn-primary btn-lg" id="home-btn"
                   href="https://www.linkedin.com/in/arturo-lopez-936497158/">
                     Contact Me
                   </a>
@@ -107,10 +108,20 @@
         </div>
         <div class="main">
           <div class="section section-about-us">
-            <div class="about">
+            <div class="about" id="home">
               <div class="container row vision">
                 <div class="col-4 text-center">
                   <h2>My Story</h2>
+                  <div class="container srjc-img" style="width: 9rem;">
+                      <img class="card-img-top" src="./static/images/srjc.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    </div>
+                </div>
+                <div class="container ucsc-img" style="width: 8rem;">
+                  <img class="card-img-top" src="./static/images/ucsc.png" alt="Card image cap">
+                  <div class="card-body">
+                  </div>
+                </div>
                 </div>
                 <div class="col-8">
                   <p>
@@ -130,13 +141,13 @@
                     to turn around and help the those following. One after another, all helping each other.
                   </p>
                   <p>
-                    This was my first exposure to community success with a group of students.
                     This game did not teach me about the importance of community, but it is something
                     that I remember when I think about helping my peers succeed.
-
+                    <strong>
                     Today, I am looking for ways to expand my
                     opportunities in my computer science and software engineering, as a developer and programmer, and I am also
                     looking for ways to give to my community and to help people who follow behind me.
+                  </strong>
                   </p>
                   <p>
                     I am currently attending <a href="https://www.ucsc.edu/">UC Santa Cruz</a>,
@@ -149,18 +160,10 @@
               <div class="container how-section">
                 <div class="row">
                   <div class="col">
-                    <div class="container" style="width: 20rem;">
-                        <img class="card-img-top" src="./static/images/srjc.jpg" alt="Card image cap">
-                      <div class="card-body">
-                      </div>
-                  </div>
+
                   </div>
                   <div class="col">
-                    <div class="container" style="width: 20rem;">
-                      <img class="card-img-top" src="./static/images/ucsc.png" alt="Card image cap">
-                      <div class="card-body">
-                      </div>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -215,10 +218,9 @@
                 <h5 class="text-center">Society of Hispanic Professional Engineers (SHPE)</h5>
                   <p>"SHPE’s mission is to change lives by empowering the Hispanic
                   community to realize its fullest potential and to impact the world
-                  through STEM awareness, access, support and development."</p>
-                  <p>
-                    Being part of SHPE gives the opportunity to connect with other
-                    engineers, who have similar goals.
+                  through STEM awareness, access, support and development."
+                  Being part of SHPE gives me a community of students and professionals who are in STEM,
+                  and the opportunity to promote STEM to kids in the k-12, as well as college students.
                   </p>
                   <a class="btn btn-primary btn-sm" href="http://www.shpe.org/">Visit SHPE</a> </li>
               </div>
@@ -229,13 +231,11 @@
               </div>
               <div class="col-8">
                 <h5 class="text-center">MESA Engineering Achievement (MEP)</h5>
-                  <p>MESA provides educationally and economically disadvantaged
-                  students and their families with the essential skills and resources
-                  to achieve success in school, career, life, and STEM-related disciplines.</p>
                   <p>
-                    MEP gives me a place to study with people in a similar area of study.
-                    It helps me connect with people who are taking or have taken my classes.
-                    The collaboration and studying is clutch.
+                    MEP supports educationally and economically disadvantaged students with resources
+                    to achieve success in school, career, and STEM-related disciplines.
+                    MEP provides me with advising, academic and career planning, and a place to study with
+                    other STEM students with a similar background.
                   </p>
                 <a class="btn btn-primary btn-sm" href="https://mep.soe.ucsc.edu/">Visit MEP</a>
               </div>
@@ -248,12 +248,8 @@
               </div>
               <div class="col-8">
                 <h5 class="text-center">UC Santa Cruz Rotaract Club</h5>
-                <p>A service, leadership, professional and community
-                  service organization
-                  for young men and women between the ages 18–30.
-                </p>
                 <p>
-                  Rotaract is for anyone who is looking to do community service.
+                  UC Santa Cruz Rotaract is a group of students who volunteer their time to do community service.
                   I have met some awesome people here, and the club is full of fun activities.
                 </p>
                 <a class="btn btn-primary btn-sm" href="https://www.rotary.org/en/get-involved/rotaract-clubs">Visit Rotaract</a>
@@ -280,7 +276,7 @@
                   </div>
                 </div>
               </div>
-              <div class="section">
+              <div class="section proj">
                 <div class="container">
                   <div class="row">
                     <div class="col">
@@ -361,51 +357,25 @@
 
 
           <!-- Contact -->
-          <div id="contact">
-          <div class="testimony">
-            <h2 class="title text-center">Contact Me</h2>
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <div class="container" id="selfie">
-                    <h4>Arturo Lopez</h4>
-                    <img src="static/images/arturo.jpeg" alt="">
-                  </div>
-                </div>
-                <div class="col contact-text">
-                  <p>
-                    Connect with me on LinkedIn.
-                  </p>
-                  <a class="btn"
-                  href="https://www.linkedin.com/in/arturo-lopez-936497158">LinkedIn</a>
-                  <p>
-                    Contact me to collaborate on a project.
-                  </p>
-                  <a
-                   class="btn btn-info" name="button"
-                   href="https://docs.google.com/forms/d/e/1FAIpQLSfIqq3jsPJx837YTwdxciUiHg1kRPT5HpZqz-IebjTGKyKhUg/viewform?usp=sf_link">Work With Me</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
           <!-- Goals -->
           <div class="faq">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                  <h3 class="text-center">Goals</h3>
-                  <div class="container padded">
-                    <p>
-                      I have a passion for building a support network where
-                      people can learn from eachother.
-                      Particularly, I want to focus on helping low income minority groups
-                      set high goals, and support them in pursuing their dreams in higher education, STEM, and/or tech.
-                    </p>
+            <div id="contact">
+            <div class="testimony">
+              <h2 class="title text-center">Contact Me</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="container" id="selfie">
+                      <h4>Arturo Lopez</h4>
+                      <img src="static/images/arturo.jpeg" alt="">
+                    </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="container faq-col2-padded">
+                  <div class="col contact-text">
+                    <p>
+                      Graduate with Computer Science BS, and become a software engineer in
+                      the tech industry. I have an interest in tech and its development.
+                    </p>
                     <p>
                       I am diligent, and I have a passion
                       for what I am learning and for what I am working torwards.
@@ -414,20 +384,23 @@
                       If you are interested to learn more,
                       feel free to me reach out on <a href="https://www.linkedin.com/in/arturo-lopez-936497158"> LinkedIn</a>.
                     </p>
+                    <p>
+                      Connect with me on LinkedIn.
+                    </p>
+                    <a class="btn btn-info"
+                    href="https://www.linkedin.com/in/arturo-lopez-936497158">LinkedIn</a>
+                    <p>
+                      Contact me to collaborate on a project.
+                    </p>
+                    <a
+                     class="btn" name="button"
+                     href="https://docs.google.com/forms/d/e/1FAIpQLSfIqq3jsPJx837YTwdxciUiHg1kRPT5HpZqz-IebjTGKyKhUg/viewform?usp=sf_link">Work With Me</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="container text-center">
-            <h6>I would like to thank for taking
-            time out of your busy schedule to visit my site.
-            If you are in the South Bay area, and want to get involved with the community, tech, or STEM,
-            reach out.
-            </h6>
           </div>
-
 
 
 
@@ -489,5 +462,8 @@
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/plugins/bootstrap-datepicker.js"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
+<script type="text/javascript" src="animate.js">
+
+</script>
 
 </html>
