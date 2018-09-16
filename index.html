@@ -20,7 +20,7 @@
   <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/now-ui-kit.min.css?v1.2.0" rel="stylesheet"/>
   <link href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/demo/demo.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
-  <link rel="shortcut icon" href="./static/images/favicon2.ico" type="image/ico" />
+  <link rel="shortcut icon" href="./static/images/favicon.ico" type="image/ico" />
   <link rel="stylesheet" type="text/css" href="/static/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -38,10 +38,10 @@
 
 <body class="index-page sidebar-collapse">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-transparent " color-on-scroll="300">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="#home">
+                <a class="navbar-brand" href="#main">
                     AL
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +89,7 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header clear-filter" filter-color="orange">
+        <div class="page-header clear-filter" filter-color="pink-blue" id="main">
             <div class="page-header-image" data-parallax="true" style="background-image: url('static/images/ucsc/1.jpg');">
             </div>
             <div class="container">
@@ -97,9 +97,9 @@
                   <h3 class="h1-seo animated fadeInLeft">Arturo Lopez</h3>
                   <h3 class="animated fadeInRight">Programmer | Computer Science Student | Developer</h3>
                   </br>
-                  <a class="btn btn-primary btn-lg" id="home-btn"
+                  <a class="btn btn-info btn-lg" id="home-btn"
                   href="https://www.linkedin.com/in/arturo-lopez-936497158/">
-                    Contact Me
+                    LinkedIn
                   </a>
                      <br/>
                      <br/>
@@ -142,11 +142,11 @@
                   </p>
                   <p>
                     Although this game did not teach me about the importance of community, it is something
-                    that I remember when I think about helping my peers succeed.
+                    that I remember when I think about giving back to my community.
                     <strong>
                     Today, I am looking for ways to expand my
                     opportunities in my computer science and software engineering, as a developer and programmer, and I am also
-                    looking for ways to give to my community and to help people who follow behind me.
+                    looking for ways to help people who follow behind me.
                   </strong>
                     I am currently attending <a href="https://www.ucsc.edu/">UC Santa Cruz</a>,
                     as a <strong>Computer Science</strong>
@@ -166,22 +166,22 @@
                 </div>
               </div>
           <div class="container-fluid courses">
-            <div class="container row courses text-center">
+            <div class="container row courses">
               <div class="col margin">
                 <h3 class="text-center">Relavant Courses</h3>
                 <ul>
                   <li>Algorithm Analysis</li>
+                  <li>Data Structures</li>
+                  <li>Abstract Data Types</li>
                   <li>Computer Architecture</li>
-                  <li>Web Development</li>
-                  <li>Mobile Applications</li>
-                  <li>Intro to Java and C</li>
+                  <li>Computational Models</li>
                   <li>Assembly Language</li>
                   <li>UNIX/ Linux</li>
                 </ul>
               </div>
               <div class="col margin">
                 <h3 class="text-center">Technologies & Libraries</h3>
-                <ul>
+                <ul class="text-center">
                   <li><i class="react icon large"></i></li>
                   <li><i class="vuejs icon large"></i></li>
                   <li><i class="npm icon large"></i></li>
@@ -191,12 +191,14 @@
                 </ul>
               </div>
               <div class="col margin">
-                <h3 class="text-center">Languages</h3>
-                <ul>
+                <h3 class="right">Languages</h3>
+                <ul class="right">
                   <li>HTML, CSS</li>
                   <li>JavaScript</li>
                   <li>Python</li>
-                  <li>Java, C, C++</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>C++</li>
                   <li>MIPS Assembly</li>
                 </ul>
               </div>
@@ -209,7 +211,7 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="image-container" >
-                      <p class="blockquote blockquote-primary text">
+                      <p class="blockquote blockquote-info text-center">
                         I am an undergrad student constantly looking to get involved in activities that go beyond classroom learning.
                         Here are the clubs and programs I am currently a part of.
                       </p>
@@ -219,7 +221,7 @@
               </div>
 
             </p>
-            <div class="container row padded text-center">
+            <div class="container row padded">
               <div class="col-4">
                 <img src="./static/images/shpe.png" width="50%;" alt="">
               </div>
@@ -231,10 +233,12 @@
                   Being part of SHPE gives me a community of students and professionals who are in STEM,
                   and the opportunity to promote STEM to kids in the k-12, as well as college students.
                   </p>
-                  <a class="btn btn-primary btn-sm" href="http://www.shpe.org/">Visit SHPE</a> </li>
+                  <div class="text-center">
+                    <a class="btn btn-info btn-sm" href="http://www.shpe.org/">Visit SHPE</a> </li>
+                  </div>
               </div>
             </div>
-            <div class="container row padded text-center" >
+            <div class="container row padded" >
               <div class="col-4">
                 <img src="./static/images/mesa.jpeg" width="70%;" alt="">
               </div>
@@ -246,12 +250,14 @@
                     MEP provides me with advising, academic and career planning, and a place to study with
                     other STEM students with a similar background.
                   </p>
-                <a class="btn btn-primary btn-sm" href="https://mep.soe.ucsc.edu/">Visit MEP</a>
+                  <div class="text-center">
+                    <a class="btn btn-info btn-sm" href="https://mep.soe.ucsc.edu/">Visit MEP</a>
+                  </div>
               </div>
             </div>
           </div>
           <div class="extra">
-            <div class="container row padded text-center">
+            <div class="container row padded">
               <div class="col-4">
                 <img src="./static/images/rotaract.png" width="60%;" alt="">
               </div>
@@ -261,7 +267,9 @@
                   UC Santa Cruz Rotaract is a group of students who volunteer their time to do community service.
                   I have met some awesome people here, and the club is full of fun activities.
                 </p>
-                <a class="btn btn-primary btn-sm" href="https://www.rotary.org/en/get-involved/rotaract-clubs">Visit Rotaract</a>
+                <div class="text-center">
+                    <a class="btn btn-info btn-sm" href="https://www.rotary.org/en/get-involved/rotaract-clubs">Visit Rotaract</a>
+                </div>
               </div>
             </div>
           </div>
@@ -276,7 +284,7 @@
                   <div class="row">
                     <div class="col-md-12">
                       <div class="image-container" >
-                        <p class="blockquote blockquote-primary">
+                        <p class="blockquote blockquote-info">
                           These include personal projects, and projects from class
                         </p>
                       </div>
@@ -290,25 +298,70 @@
                   <div class="row">
                     <div class="col">
                       <div class="card" style="width: 20rem;">
+                        <a href="https://eager-swirles-8b12c3.netlify.com/" target="_blank">
+                          <img src="./static/images/robofriends-img.png" alt="Image" class="img-raised">
+                        </a>
+                        <div class="card-body">
+                          <a
+                          href="https://eager-swirles-8b12c3.netlify.com/" target="_blank"
+                           class="btn btn-simple btn-info btn-round">Robofriends</a>
+                           <p class="card-text">
+                              Match a robot name with your search. React.js practice.
+                            </p>
+                              <hr class="sexy_line"/>
+                              <p>
+                              <button class="not-clickable btn btn-sm btn">ReactJS</button>
+                              <button class="not-clickable btn btn-sm btn">HTML5</button>
+                              <button class="not-clickable btn btn-sm btn">CSS3</button>
+                              <button class="not-clickable btn btn-sm btn">Bootstrap</button>
+                              <button class="not-clickable btn btn-sm btn">Netlify</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 20rem;">
+                        <a href="https://alopez96.github.io/" target="_blank">
+                          <img src="./static/images/screenjumpn.png" alt="Image" class="img-raised">
+                        </a>
+                        <div class="card-body">
+                          <a
+                          href="https://alopez96.github.io/" target="_blank"
+                           class="btn btn-simple btn-info btn-round">JUMP'N</a>
+                           <p class="card-text">
+                              Landing page for personal startup idea.
+                            </p>
+                              <hr class="sexy_line"/>
+                              <p>
+                              <button class="not-clickable btn btn-sm btn">HTML5</button>
+                              <button class="not-clickable btn btn-sm btn">CSS3</button>
+                              <button class="not-clickable btn btn-sm btn">Bootstrap</button>
+                              <button class="not-clickable btn btn-sm btn">GitHub</button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="width: 20rem;">
                         <a href="https://socer-a512d.appspot.com/Avalos" target="_blank">
                           <img src="./static/images/avalos.png" alt="Image" class="img-raised">
                         </a>
                         <div class="card-body">
                           <a
-                          href="http://socer-a512d.appspot.com/Avalos"
-                           class="btn btn-simple btn-primary btn-round">Make Up Artist</a>
+                          href="http://socer-a512d.appspot.com/Avalos" target="_blank"
+                           class="btn btn-simple btn-info btn-round">Make Up Artist</a>
                            <p class="card-text">
                               Business website for makeup artist.
                             </p>
                               <hr class="sexy_line"/>
                               <p>
-
                               <button class="not-clickable btn btn-sm btn">Web2py</button>
                               <button class="not-clickable btn btn-sm btn">VueJS</button>
-                              <button class="not-clickable btn btn-sm btn">HTML</button>
-                              <button class="not-clickable btn btn-sm btn">CSS</button>
+                              <button class="not-clickable btn btn-sm btn">HTML5</button>
+                              <button class="not-clickable btn btn-sm btn">CSS3</button>
                               <button class="not-clickable btn btn-sm btn">Python</button>
                               <button class="not-clickable btn btn-sm btn">Bootstrap</button>
+                              <button class="not-clickable btn btn-sm btn">Google App Engine</button>
                           </p>
                         </div>
                       </div>
@@ -320,18 +373,19 @@
                         </a>
                         <div class="card-body">
                           <a
-                          href="http://socer-a512d.appspot.com/soccer"
-                          class="btn btn-simple btn-primary btn-round">Soccer Pick Up</a>
+                          href="http://socer-a512d.appspot.com/soccer" target="_blank"
+                          class="btn btn-simple btn-info btn-round">Soccer Pick Up</a>
                           <p>Website for people looking to play soccer with others nearby.</p>
                           <hr class="sexy_line"/>
                           <p>
                           <button class="not-clickable btn btn-sm btn">Web2py</button>
                           <button class="not-clickable btn btn-sm bt">VueJS</button>
-                          <button class="not-clickable btn btn-sm btn">HTML</button>
-                          <button class="not-clickable btn btn-sm btn">CSS</button>
+                          <button class="not-clickable btn btn-sm btn">HTML5</button>
+                          <button class="not-clickable btn btn-sm btn">CSS3</button>
                           <button class="not-clickable btn btn-sm btn">Python</button>
                           <button class="not-clickable btn btn-sm btn">Bootstrap</button>
                           <button class="not-clickable btn btn-sm btn">Firebase</button>
+                          <button class="not-clickable btn btn-sm btn">Google App Engine</button>
                       </p>
                         </div>
                       </div>
@@ -343,7 +397,7 @@
                         </a>
                         <div class="card-body">
                           <a
-                           class="btn btn-simple btn-primary btn-round">Game Up</a>
+                           class="btn btn-simple btn-info btn-round">Game Up</a>
                            <p class="card-text card-desc">
                             Android App for gamers to connect with others to create and join events.
                           </p>
@@ -374,27 +428,29 @@
               <h2 class="title text-center">Contact Me</h2>
               <div class="container">
                 <div class="row">
-                  <div class="col">
+                  <div class="col contact-first">
                     <div class="container" id="selfie">
-                      <h4>Arturo Lopez</h4>
+                      <h4 class="text-center">Arturo Lopez</h4>
                       <img src="static/images/arturo.jpeg" alt="">
                     </div>
                   </div>
                   <div class="col contact-text">
                     <p>
+                      I have an interest in tech, and
                       I want to apply my degree in Computer Science to become a software engineer.
-                      I have an interest in tech, and being a developer.
-                      I am diligent, and I have a passion for what I am learning.
+
                     </p>
                     <p>
                       I want to support youth who come from untraditional backgrounds,
-                      by helping them find their passion in tech, education, and STEM, and giving them resources
+                      by helping them find their passion in tech, education, and STEM, and unltimately giving them resources
                       to pursue their goals.
                       If you are interested to learn more,
                       feel free to reach out on <a href="https://www.linkedin.com/in/arturo-lopez-936497158"> LinkedIn</a>.
                     </p>
                     <a class="btn btn-info"
                     href="https://www.linkedin.com/in/arturo-lopez-936497158">LinkedIn</a>
+                    <br />
+                    <br />
                     <p>
                       If you are interested in collaborating on a project, get a hold of me here.
                     </p>

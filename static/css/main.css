@@ -194,3 +194,19 @@
 .ucsc-img img{
   padding-top: 20%;
 }
+
+
+.right{
+  text-align: right;
+}
+
+
+.contact-first{
+  padding-top: 5%;
+}
+
+
+.clear-filter[filter-color=pink-blue] {
+  background: rgba(0,38,160,.2);
+  background: linear-gradient(0deg,rgba(255,5,155,.2),rgba(0,38,160,.6));
+}
