@@ -186,7 +186,7 @@
 
 
 #home h2{
-  padding-bottom: 20%;
+  padding-bottom: 0%;
   text-align: center;
 }
 
@@ -254,6 +254,26 @@ li{
   flex-wrap: wrap;
 }
 
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flex-container2 img{
+  width:10%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+
+
+#my-story-header{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex-container img{
   width:20%;
   height: auto;
@@ -264,5 +284,18 @@ li{
 }
 
 .orgs-intro{
-  padding-top: 10%; 
+  padding-top: 10%;
+}
+
+
+.about-text{
+  width:350px;
+  height:auto;
+  padding:0% 5% 0% 5%;
+}
+
+.about-text2{
+  width:350px;
+  height:auto;
+  padding:5% 5% 0% 5%;
 }
