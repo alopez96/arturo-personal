@@ -123,8 +123,11 @@
     /* background-size: cover; */
     /* background: linear-gradient(white, #00385C); */
     background-color: #4682B4;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),
+    url('../images/computer.jpg'); */
     position: relative;
     color:white;
+    font-weight: 600;
 }
 
 .courses li{
@@ -214,4 +217,52 @@
 
 .no-click a{
   pointer-events: none;
+}
+
+
+p{
+  font-family: Roboto;
+}
+
+
+h1{
+  font-family: Roboto;
+
+}
+
+h3{
+  font-family: 'Arimo', sans-serif;
+  font-weight: 600;
+}
+
+h2{
+  font-family: cursive;
+}
+
+li{
+  font-family: notable;
+}
+
+
+.orgs p{
+  line-height: 150%;
+  padding:1% 15% 1% 15%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container img{
+  width:20%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+
+.orgs-intro{
+  padding-top: 10%; 
 }
