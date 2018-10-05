@@ -56,7 +56,7 @@
 }
 
 .testimony{
-  padding: 5% 13% 7% 13%;
+  padding: 5% 1% 7% 1%;
 }
 
 .testimony img{
@@ -70,7 +70,8 @@
 
 #selfie img{
   height:auto;
-  width:70%;
+  width:50%;
+  margin-left: 19%;
 }
 
 .blockquote-secondary{
@@ -308,15 +309,29 @@ li{
   width:350px;
   height:auto;
   padding:0% 5% 0% 5%;
+  line-height: 140%;
 }
 
 .about-text2{
   width:350px;
   height:auto;
   padding:5% 5% 0% 5%;
+  line-height: 135%;
 }
 
 .blue-img img{
   width:100%;
 
+}
+
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container3 img{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
 }
