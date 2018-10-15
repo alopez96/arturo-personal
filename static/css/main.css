@@ -347,3 +347,20 @@ li{
   line-height: 130%;
   font-size: 20px;
 }
+
+.blockquote{
+  font-size: 18px;
+  font-weight: 550;
+}
+
+
+.programs p{
+  font-size: 18px;
+  font-weight: 550;
+}
+
+
+.extra p{
+  font-size: 18px;
+  font-weight: 550;
+}
