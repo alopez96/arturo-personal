@@ -56,10 +56,8 @@
 
 #selfie img{
   height:auto;
-  width:50%;
+  width:300px;
   margin-left: 19%;
-  // Extra small devices (portrait phones, less than 576px)
-  @media (max-width: 575.98px) { width:400px; }
 }
 
 .blockquote-secondary{
@@ -90,7 +88,7 @@
 
 
 .sexy_line {
-    margin: 25px 0;
+    margin: -5px  0px -5px 0px;
     height: 1px;
     border: 0;
     background: black;
@@ -148,7 +146,7 @@
 }
 
 .proj img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 
@@ -182,7 +180,7 @@
 }
 
 #contact a:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 
@@ -291,7 +289,7 @@ li{
 .about-text{
   width:350px;
   height:auto;
-  padding:0% 5% 0% 5%;
+  padding: 100px 10px 0px 10px;
   line-height: 140%;
 }
 
@@ -376,7 +374,7 @@ li{
 }
 
 .mep a:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .shpe p{
@@ -392,7 +390,7 @@ li{
 }
 
 .shpe a:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .shpe img{
@@ -400,4 +398,12 @@ li{
   height:auto;
   box-shadow: 0px 0px 10px 5px #989898;
   border-radius: 3.5px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+.card{
+  border-radius: 50px;
 }
