@@ -408,3 +408,13 @@ li{
 .card{
   border-radius: 50px;
 }
+
+.tech-btn{
+  background: linear-gradient(to top,rgba(255,5,155,.2),rgba(0,38,160,.6));
+  font-weight: bold;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+}
