@@ -58,3 +58,12 @@ $(document).ready(function(){
         $("#list7").fadeIn(3000000000);
     });
 });
+
+
+$(document).ready(function(){
+    $(document.getElementById("tech-btn8")).click(function(){
+        $("#lis8").fadeIn();
+        $("#list8").fadeIn("slow");
+        $("#list8").fadeIn(3000000000);
+    });
+});
