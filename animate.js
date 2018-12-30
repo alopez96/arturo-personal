@@ -66,4 +66,9 @@ $(document).ready(function(){
         $("#list8").fadeIn("slow");
         $("#list8").fadeIn(3000000000);
     });
+    $(document.getElementById("tech-btn9")).click(function(){
+        $("#lis9").fadeIn();
+        $("#list9").fadeIn("slow");
+        $("#list9").fadeIn(3000000000);
+    });
 });
