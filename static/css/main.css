@@ -89,8 +89,7 @@
 
 
 .sexy_line {
-    margin: -5px  0px -5px 0px;
-    height: 1px;
+    height: 4px;
     border: 0;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, gray));
@@ -351,7 +350,13 @@ li{
 
 .programs p{
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 500;
+  max-width: 900px;
+  line-height: 1.8;
+}
+
+.programs h2{
+  margin: 50px;
 }
 
 
@@ -366,8 +371,9 @@ li{
 }
 
 .mep p{
-  padding: 10px 50px 0px 0px;
+  margin: 20px 10px 50px 100px;
   line-height: 160%;
+  max-width: 400px;
 }
 
 .mep a{
@@ -380,7 +386,7 @@ li{
 }
 
 .shpe p{
-  padding: 10px 0px 0px 50px;
+  padding: 10px 0px 20px 50px;
   line-height: 160%;
 }
 
@@ -411,10 +417,12 @@ li{
 }
 
 .tech-btn{
-  background: linear-gradient(to top,rgba(255,5,155,.2),rgba(0,38,160,.6));
-  font-weight: bold;
+  background: transparent;
   font-size: 13px;
+  color: #707070;
+  margin: -20px 0px 0px 0px;
 }
+
 
 ul {
   list-style-type: none;
