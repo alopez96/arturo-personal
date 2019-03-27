@@ -332,7 +332,7 @@ li{
 .about-image img{
   width:35%;
   height:auto;
-  box-shadow: 0px 0px 10px 5px #989898;
+  box-shadow: 0px 0px 5px 5px #e4e4e4;
   border-radius: 3.5px;
 }
 
@@ -404,7 +404,7 @@ li{
 .shpe img{
   width:27%;
   height:auto;
-  box-shadow: 0px 0px 10px 5px #989898;
+  box-shadow: 0px 0px 5px 5px #e4e4e4;
   border-radius: 3.5px;
 }
 
@@ -413,7 +413,7 @@ li{
 }
 
 .card{
-  border-radius: 50px;
+  border-radius: 5px;
 }
 
 .tech-btn{
