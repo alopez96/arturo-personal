@@ -409,7 +409,7 @@ li{
 }
 
 .card-body{
-  text-align: center;
+  text-align: left;
 }
 
 .card{
@@ -419,11 +419,12 @@ li{
 .tech-btn{
   background: transparent;
   font-size: 13px;
-  color: #707070;
+  color: rgba(255, 5, 155, 0.589);
   margin: -20px 0px 0px 0px;
 }
 
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }

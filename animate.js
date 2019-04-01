@@ -71,4 +71,19 @@ $(document).ready(function(){
         $("#list9").fadeIn("slow");
         $("#list9").fadeIn(3000000000);
     });
+    $(document.getElementById("tech-btn10")).click(function(){
+        $("#lis10").fadeIn();
+        $("#list10").fadeIn("slow");
+        $("#list10").fadeIn(3000000000);
+    });
+    $(document.getElementById("tech-btn11")).click(function(){
+        $("#lis11").fadeIn();
+        $("#list11").fadeIn("slow");
+        $("#list11").fadeIn(3000000000);
+    });
+    $(document.getElementById("tech-btn12")).click(function(){
+        $("#lis12").fadeIn();
+        $("#list12").fadeIn("slow");
+        $("#list12").fadeIn(3000000000);
+    });
 });
