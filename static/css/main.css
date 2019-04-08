@@ -23,9 +23,6 @@
   font-weight: 400;
 }
 
-.vision{
-  padding: 5% 2% 5% 2%;
-}
 
 .how-section img {
   height:100px;
@@ -35,15 +32,6 @@
 
 .faq{
   background-color: #DCDCDC;
-}
-
-
-.padded{
-  padding: 3% 2% 5% 2%;
-}
-
-.faq-col2-padded{
-  padding: 7% 0% 3% 0%;
 }
 
 .selfie{
@@ -61,14 +49,6 @@
   padding:20%;
 }
 
-#projects{
-  margin-top: 2%;
-}
-
-
-.col-block{
-  padding-top: 15%;
-}
 
 .img-text{
   width: 100%;
@@ -95,13 +75,6 @@
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, gray));
 }
 
-.ed-header p{
-  font-family: 'Roboto Slab', serif;
-  font-size: 22px;
-  line-height: 140%;
-  font-weight: 500;
-}
-
 .courses{
     width: 100%;
     height: auto;
@@ -109,7 +82,8 @@
     position: relative;
     color:black;
     font-weight: 600;
-    padding: 10% 5% 10% 5%;
+    padding: 5% 5% 5% 5%;
+    border-radius: 1%;
 }
 
 .courses li{
@@ -240,23 +214,8 @@ li{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5%;
 }
 
-
-.about-text{
-  width:350px;
-  height:auto;
-  padding: 100px 10px 0px 10px;
-  line-height: 140%;
-}
-
-.about-text2{
-  width:350px;
-  height:auto;
-  padding:5% 5% 0% 5%;
-  line-height: 135%;
-}
 
 .blue-img img{
   width:100%;
@@ -272,7 +231,6 @@ li{
 .flex-container3 img{
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5%;
 }
 
 
