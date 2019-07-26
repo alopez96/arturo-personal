@@ -1,4 +1,4 @@
-$('#home-btn').addClass('animated fadeInUp');
+$('#home-btn').addClass('animated fadeInRight');
 
 
 $(document).ready(function(){

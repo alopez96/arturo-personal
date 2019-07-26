@@ -1,15 +1,3 @@
-
-.red{
-  color:white;
-  background-color: red;
-  font-size: 60px;
-}
-
-.brand img{
-  width:35%;
-}
-
-
 .card-body p{
   padding-top: 10%;
 }
@@ -143,11 +131,6 @@
 }
 
 
-.contact-first{
-  padding-top: 5%;
-}
-
-
 .clear-filter[filter-color=pink-blue] {
   background: rgba(0,38,160,.2);
   background: linear-gradient(0deg,rgba(255,5,155,.2),rgba(0,38,160,.6));
@@ -166,7 +149,6 @@ p{
 
 h1{
   font-family: Roboto;
-
 }
 
 h3{
@@ -284,3 +266,11 @@ ul {
   padding-left: 0;
 }
 
+#my-btn{
+  color: white;
+  border: 2px solid white;
+}
+
+#home-btn{
+  border: 2px solid white;
+}
