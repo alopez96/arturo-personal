@@ -27,6 +27,7 @@
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
+  <script src="./mixpanel.js?1"></script>
 
   <!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
     0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
@@ -80,14 +81,22 @@
                       </a>
                       </li>
                     <li class="nav-item">
-                      <a class="nav-link" rel="tooltip" title="Source Code on Github" data-placement="bottom"
-                       href="https://github.com/alopez96" target="_blank">
+                      <a class="nav-link" rel="tooltip" 
+                      title="Source Code on Github" 
+                      data-placement="bottom"
+                       href="https://github.com/alopez96" 
+                       target="_blank"
+                       onclick="nav('gitHub')">
                           <i class="fa fa-github fa-lg"></i>
                           <p class="d-lg-none d-xl-none">Github</p>
                       </a>
                     </li>
                       <li class="nav-item">
-                        <a class="nav-link" rel="tooltip" title="Find Me On LinkedIn" data-placement="bottom" href="https://www.linkedin.com/in/rturolopez" target="_blank">
+                        <a class="nav-link" rel="tooltip" title="Find Me On LinkedIn" 
+                        data-placement="bottom" 
+                        href="https://www.linkedin.com/in/rturolopez" 
+                        target="_blank"
+                        onclick="nav('linkedIn')">
                             <i class="fa fa-lg fa-linkedin-square"></i>
                             <p class="d-lg-none d-xl-none">LinkedIn</p>
                         </a>
@@ -109,7 +118,7 @@
                   <h3 class="animated fadeInRight">I am passionate about software development.</h3>
                   <br/>
                   <a class="btn btn-info btn-lg" id="home-btn"
-                  href="#contact">
+                  href="#contact"  onclick="contact()">
                     Contact
                   </a>
                      <br/>
@@ -167,7 +176,9 @@
                         <div class="card">
                           <div class="card-body">
                             <a
-                            href="https://face-recognition-reactjs.herokuapp.com/" target="_blank"
+                            href="https://face-recognition-reactjs.herokuapp.com/"
+                            target="_blank"
+                            onclick="project('faceApp')"
                               class="btn btn-simple btn-info">Face Detection</a>
                               <p class="card-text">
                                 ReactJS Web Application that uses API to detect faces.
@@ -242,6 +253,7 @@
                             <div class="card-body">
                               <a
                               href="https://workersdinner.surge.sh" target="_blank"
+                              onclick="project('workersDinner')"
                                class="btn btn-simple btn-info">Workers' Dinner</a>
                                <p class="card-text">
                                   Landing page for Workers' Dinner event at UCSC.
@@ -266,6 +278,7 @@
                             <div class="card-body">
                               <a
                               href="http://arturo-start.surge.sh/" target="_blank"
+                              onclick="project('startpage')"
                                class="btn btn-simple btn-info">Startpage</a>
                                <p class="card-text">
                                   Customized startpage inspired by reddit r/startpages.
@@ -313,6 +326,7 @@
                         <div class="card-body">
                           <a
                           href="https://arturo-personal-react.herokuapp.com/home" target="_blank"
+                          onclick="project('personal page')"
                            class="btn btn-simple btn-info">Personal Website 2</a>
                            <p class="card-text">
                               Redesigned Personal Page using ReactJS.
@@ -339,6 +353,7 @@
                         <div class="card-body">
                           <a
                           href="https://eager-swirles-8b12c3.netlify.com/" target="_blank"
+                          onclick="project('robofriends')"
                            class="btn btn-simple btn-info">Robofriends</a>
                            <p class="card-text">
                               ReactJS Practice | Website to match id with robot picture.
@@ -365,6 +380,7 @@
                         <div class="card-body">
                           <a
                           href="https://eloquent-shirley-d00123.netlify.com" target="_blank"
+                          onclick="project('JMPN')"
                            class="btn btn-simple btn-info">JUMP'N</a>
                            <p class="card-text">
                               Landing page for personal startup idea (web design coding challenge).
@@ -391,6 +407,7 @@
                         <div class="card-body">
                           <a
                           href="http://socer-a512d.appspot.com/Avalos" target="_blank"
+                          onclick="project('makeup')"
                            class="btn btn-simple btn-info">Make Up Artist</a>
                            <p class="card-text">
                               Business website for freelance makeup artist.
@@ -418,6 +435,7 @@
                         <div class="card-body">
                           <a
                           href="http://socer-a512d.appspot.com/soccer" target="_blank"
+                          onclick="project('soccer')"
                           class="btn btn-simple btn-info">Soccer Pick Up</a>
                         <p>Website to connect people who want to play soccer.</p>
                           <hr class="sexy_line"/>
@@ -488,10 +506,12 @@
                       career in the tech industry.
                     </p>
                     <a class="btn btn-info" target="_blank" id="my-btn"
-                    href="https://github.com/alopez96">GitHub</a>
+                    href="https://github.com/alopez96"
+                    onclick="contactAction('github')">GitHub</a>
 
                     <a class="btn btn-info" target="_blank" id="my-btn"
-                    href="https://www.linkedin.com/in/rturolopez">LinkedIn</a>
+                    href="https://www.linkedin.com/in/rturolopez"
+                    onclick="contactAction('linkedIn')">LinkedIn</a>
                   </div>
                 </div>
               </div>
