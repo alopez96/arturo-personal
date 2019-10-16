@@ -141,6 +141,9 @@
   pointer-events: none;
 }
 
+.no-click-btn{
+  pointer-events: none;
+}
 
 p{
   font-family: Roboto;
