@@ -1,16 +1,18 @@
 .card-body p{
-  padding-top: 10%;
+  padding-top: 0.5rem;
+}
+
+.btn{
+  margin-top: -0.5rem;
 }
 
 #text1{
   padding-top: 100px;
 }
 
-
- p{
+p{
   font-weight: 400;
 }
-
 
 .how-section img {
   height:100px;
@@ -36,14 +38,12 @@
   padding:20%;
 }
 
-
 .img-text{
   width: 100%;
    height: 400px;
    background-size: cover;
    position: relative;
 }
-
 
 .contact-text{
   padding:4% 5% 0% 0%;
@@ -149,14 +149,12 @@ p{
   font-family: Roboto;
 }
 
-
 h1{
   font-family: Roboto;
 }
 
 h3{
-  font-family: 'Arimo', sans-serif;
-  font-weight: 600;
+  font-family: cursive;
 }
 
 h2{
@@ -254,6 +252,11 @@ li{
   border-radius: 5px;
   width: 24rem;
   /* box-shadow: 5px 5px 3px 3px rgb(236, 236, 236); */
+}
+
+.project-img{
+  height: 25vh;
+  object-fit: contain;
 }
 
 .tech-btn{
