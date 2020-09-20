@@ -58,6 +58,7 @@ p{
 .sexy_line {
     height: 4px;
     border: 0;
+    margin: -0.3rem 0 0 0;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, gray));
 }
@@ -279,4 +280,14 @@ ul {
 
 #home-btn{
   border: 2px solid white;
+}
+
+@media (max-width: 450px){
+  .card-body img{
+    display: none;
+  }
+
+  .card-body hr{
+    display: none;
+  }
 }
