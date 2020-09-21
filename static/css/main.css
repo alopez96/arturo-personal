@@ -74,6 +74,7 @@ p{
 .experience li{
   margin-top:17px;
   font-size: 1.5rem;
+  font-weight: 550;
 }
 
 .experience ul {
@@ -177,50 +178,11 @@ h1{
   margin-right: auto;
 }
 
-
-.blue-img img{
-  width:100%;
-
-}
-
-
-.flex-container3 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-container3 img{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.span4 img {
-    margin-right: 30px;
-}
-.span4 .img-left {
-    float: left;
-}
-.span4 .img-right {
-    float: right;
-}
-
 .about-image img{
   width:35%;
   height:auto;
   box-shadow: 0px 0px 5px 5px #e4e4e4;
   border-radius: 3.5px;
-}
-
-.about-text4{
-  padding:2% 5% 0% 5%;
-  line-height: 130%;
-  font-size: 20px;
-}
-
-.blockquote{
-  font-size: 18px;
-  font-weight: 550;
 }
 
 .card-body{
@@ -230,7 +192,6 @@ h1{
 .card{
   border-radius: 5px;
   width: 24rem;
-  /* box-shadow: 5px 5px 3px 3px rgb(236, 236, 236); */
 }
 
 .project-img{
