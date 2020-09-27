@@ -1,4 +1,3 @@
-This is my current source code to my personal website.
-It includes a bootstrap kit by timcreative.
-The implementation uses HTML, CSS, and the bootstrap kit.
+This is my current source code to my personal website where I showcase web develpopment work.
+The implementation uses HTML, CSS, and a bootstrap kit by timcreative.
 
