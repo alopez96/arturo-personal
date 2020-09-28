@@ -228,6 +228,10 @@ ul {
   background-color: transparent;
 }
 
+.about-text{
+  margin: 2rem;
+}
+
 @media (max-width: 450px){
   .card-body img{
     display: none;
