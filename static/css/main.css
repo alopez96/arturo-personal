@@ -57,7 +57,7 @@ p{
 
 
 .sexy_line {
-    height: 4px;
+    height: 1px;
     border: 0;
     margin: -0.3rem 0 0 0;
     background: black;
@@ -256,8 +256,43 @@ ul {
 }
 
 @media (max-width: 460px){
-  .card-body img{
-    display: none;
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .project-img{
+    height: 40vh;
+    width: 60vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;
+    object-fit: contain;
+  }
+
+  .card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: inherit;
+    text-align: center;
+  }
+  
+  .card-text h3{
+    font-size: 1.6rem;
+  }
+  
+  .card-text p{
+    color: #797979;
+  }  
+
+  .btn{
+    width: 30vw;
+    border-radius: 10rem;
   }
 
   .card-body hr{
