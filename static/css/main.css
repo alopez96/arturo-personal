@@ -232,7 +232,7 @@ ul {
   margin: 2rem;
 }
 
-@media (max-width: 450px){
+@media (max-width: 460px){
   .card-body img{
     display: none;
   }
