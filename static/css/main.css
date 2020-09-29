@@ -4,6 +4,8 @@
 
 .btn{
   margin-top: -0.5rem;
+  width: 10vw;
+  border-radius: 10rem;
 }
 
 #text1{
@@ -184,20 +186,6 @@ h1{
   border-radius: 3.5px;
 }
 
-.card-body{
-  text-align: left;
-}
-
-.card{
-  border-radius: 5px;
-  width: 24rem;
-}
-
-.project-img{
-  height: 25vh;
-  object-fit: contain;
-}
-
 .tech-btn{
   background: transparent;
   font-size: 13px;
@@ -230,6 +218,39 @@ ul {
 
 .about-text{
   margin: 2rem;
+}
+
+.card-body{
+  text-align: left;
+}
+
+.card{
+  border-radius: 5px;
+  width: 80vw;
+  display: flex;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+}
+
+.card-text h3{
+  font-size: 1.6rem;
+}
+
+.card-text p{
+  color: #797979;
+}
+
+.project-img{
+  /* height: 75vh; */
+  height: 40vh;
+  object-fit: contain;
+  border-radius: 1rem;
+  /* padding: 2rem; */
 }
 
 @media (max-width: 460px){
