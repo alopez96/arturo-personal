@@ -329,4 +329,31 @@ ul {
   #spacing-p{
     display: none;
   }
+
+  .my-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #e4e4e4;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .skill-container{
+    border-radius: 1rem;
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: transparent;
+  }
+  
+  .skill-container h2{
+    color: rgba(255, 0, 191, 0.589);
+  }
+  
+  .vl{
+    border: 1px solid #e4e4e4;
+    height: auto;
+  }
 }
