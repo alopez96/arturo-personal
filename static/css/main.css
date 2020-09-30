@@ -2,6 +2,10 @@
   padding-top: 0.5rem;
 }
 
+.page-header-image{
+  width: 10px;
+}
+
 .btn{
   width: 10vw;
   border-radius: 10rem;
