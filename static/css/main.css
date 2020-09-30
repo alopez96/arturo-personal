@@ -120,6 +120,7 @@ p{
 .clear-filter[filter-color=pink-blue] {
   background: rgba(0,38,160,.2);
   background: linear-gradient(0deg,rgba(146, 106, 130, 0.2),rgba(0,38,160,.6));
+  /* background: linear-gradient(0deg,rgba(255,5,155,.2),rgba(0,38,160,.6)); */
 }
 
 
