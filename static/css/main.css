@@ -7,7 +7,7 @@
 }
 
 .btn{
-  width: 15vw;
+  width: 15rem;
   border-radius: 10rem;
   font-size: 1.3rem;
 }
@@ -330,7 +330,8 @@ ul {
   }  
 
   .btn{
-    width: 35vw;
+    width: 13rem;
+    text-align: center;
     border-radius: 10rem;
   }
 
