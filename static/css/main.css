@@ -5,6 +5,7 @@
 .btn{
   width: 10vw;
   border-radius: 10rem;
+  font-size: 1.3rem;
 }
 
 #text1{
@@ -271,7 +272,7 @@ ul {
 }
 
 .skill-container h2{
-  color: rgba(255, 0, 191, 0.589);
+  color: rgba(0, 132, 255, 0.589);
 }
 
 .vl{
@@ -315,7 +316,7 @@ ul {
   }  
 
   .btn{
-    width: 30vw;
+    width: 35vw;
     border-radius: 10rem;
   }
 
@@ -347,10 +348,6 @@ ul {
     width: 100%;
     padding: 2rem 2rem 2rem 2rem;
     background-color: transparent;
-  }
-  
-  .skill-container h2{
-    color: rgba(255, 0, 191, 0.589);
   }
   
   .vl{
