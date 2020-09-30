@@ -7,7 +7,7 @@
 }
 
 .btn{
-  width: 10vw;
+  width: 15vw;
   border-radius: 10rem;
   font-size: 1.3rem;
 }
@@ -75,11 +75,6 @@ p{
     position: relative;
     color:black;
     padding: 2% 2% 2% 2%;
-}
-
-.experience li{
-  margin-top:17px;
-  font-size: 1.5rem;
 }
 
 .experience ul {
@@ -276,7 +271,22 @@ ul {
 }
 
 .skill-container h2{
-  color: rgba(0, 132, 255, 0.589);
+  /* color: rgba(0, 132, 255, 0.589); */
+  color: black;
+}
+
+.skill-container{
+  color:#797979;
+}
+
+.skill-container li{
+  margin-top: 17px;
+  font-size: 1.2rem;
+}
+
+.skill-container p{
+  margin-top: 17px;
+  font-size: 1.2rem;
 }
 
 .vl{
