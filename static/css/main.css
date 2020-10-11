@@ -8,7 +8,6 @@
 
 .btn{
   width: 15rem;
-  border-radius: 10rem;
   font-size: 1.3rem;
 }
 
@@ -119,10 +118,37 @@ p{
 
 .clear-filter[filter-color=pink-blue] {
   background: rgba(0,38,160,.2);
-  background: linear-gradient(0deg,rgba(146, 106, 130, 0.2),rgba(0,38,160,.6));
-  /* background: linear-gradient(0deg,rgba(255,5,155,.2),rgba(0,38,160,.6)); */
+  /* background: linear-gradient(0deg,rgba(146, 106, 130, 0.2),rgba(0,38,160,.6)); */
+  background: linear-gradient(0deg,#00A3FE,#00186F);
 }
 
+#gradient
+{
+    border:1px solid black;
+    font-size:30px;
+    background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
+    background-size: 200% 200%;
+
+    -webkit-animation: Animation 5s ease infinite;
+    -moz-animation: Animation 5s ease infinite;
+    animation: Animation 5s ease infinite;
+}
+
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@keyframes Animation { 
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
 
 .no-click a{
   pointer-events: none;
@@ -132,12 +158,8 @@ p{
   pointer-events: none;
 }
 
-p{
-  font-family: Roboto;
-}
-
-h1{
-  font-family: Roboto;
+body{
+  font-family: 'Jost', sans-serif;
 }
 
 .about li{
@@ -204,6 +226,7 @@ ul {
 
 #home-btn{
   border: 2px solid white;
+  background-color: #00A3FE;
 }
 
 #projects{
@@ -295,6 +318,10 @@ ul {
 }
 
 @media (max-width: 460px){
+  #h1-seo{
+    font-size: 2rem;
+  }
+
   .card-body{
     display: flex;
     flex-direction: column;
@@ -332,7 +359,6 @@ ul {
   .btn{
     width: 13rem;
     text-align: center;
-    border-radius: 10rem;
   }
 
   .card-body hr{

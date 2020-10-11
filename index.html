@@ -25,6 +25,7 @@
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
 
   <!-- Bootstrap core CSS     -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/css/bootstrap.min.css">
@@ -72,7 +73,7 @@
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="#main">
-                    AL
+                    <img class='logo' src='./static/images/logo.svg'/>
                 </a>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" 
                     aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,15 +110,14 @@
     </nav>
     <!-- End Navbar -->
     <div class="wrapper">
-        <div class="page-header clear-filter" filter-color="pink-blue" id="main">
-            <div class="page-header-image" data-parallax="true" loading="lazy" 
-            style="background-image: url('static/images/hex_pink.jpg');">
+        <div class="page-header " filter-color="pink-blue" id="main">
+            <div class="page-header-image" data-parallax="true" loading="lazy" id='gradient'>
             </div>
             <div class="container">
                 <div class="content-center brand">  
-                  <h2 class="h1-seo animated fadeInLeft">Hi, I'm Arturo Lopez,</h2>
-                  <h2 class="h1-seo animated fadeInLeft">Web Developer.</h2>
-                  <p class="animated fadeInRight">I enjoy helping businesses with their website needs.</p>
+                  <h2 class="h1-seo animated fadeInLeft" id='h1-seo'>Designer and Web Developer.</h2>
+                  <!-- <p class=" animated fadeInLeft">Hi, I'm Arturo Lopez </p> -->
+                  <p class="animated fadeInRight">Hi, I'm Arturo Lopez. I can help your business develop an online presence.</p>
                   <br/>
                   <a class="btn btn-info btn-lg" id="home-btn"
                     href="#contact"  onclick="contact()">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="main">
-            <div class="about" id="home">
+            <div class="section about">
               <div class="container vision">
                 <div class="flex-container2 text-center">
                   <div class="container">
@@ -141,7 +141,7 @@
                           <div class="skill-container">
                             <h2 class="title">What I do</h2>
                             <p>I design with an emphasize on user experience. I develop software that addresses business needs.</p>
-                            <p style='color:rgba(0, 17, 255, 0.589); font-size: 1.4rem;'>Services:</p>
+                            <p style='color:#00A3FE; font-size: 1.4rem;'>Services:</p>
                             <ul class="text-center">
                               <li><p>Front End Development</p></li>
                               <li><p>Back End Development</p></li>
@@ -149,7 +149,7 @@
                               <li><p>Hosting</p></li>
                               <li><p>Database</p></li>
                             </ul>
-                            <p style='color:rgba(0, 17, 255, 0.589); font-size: 1.4rem;'>Products:</p>
+                            <p style='color:#00A3FE; font-size: 1.4rem;'>Products:</p>
                             <ul class="text-center">
                               <li><p>Landing page, Coming Soon page, Full Website</p></li>
                             </ul>
@@ -158,7 +158,7 @@
                           <div class="skill-container">
                             <h2 class="text-center title">How I do it</h2>
                             <p>I am an active learner and I enjoy using technology and software to solve problems.</p>
-                            <p style='color:rgba(0, 17, 255, 0.589); font-size: 1.4rem;'>Experience:</p>
+                            <p style='color:#00A3FE; font-size: 1.4rem;'>Experience:</p>
                             <ul class="text-center">
                               <li><p>Computer Science Degree</p></li>
                               <li><p>Web Design and Development</p></li>
@@ -166,7 +166,7 @@
                               <li><p>UI/UX Design</p></li>
                               <li><p>Data Engineering Industy</p></li>
                             </ul>
-                            <p style='color:rgba(0, 17, 255, 0.589); font-size: 1.4rem;'>Tools:</p>
+                            <p style='color:#00A3FE; font-size: 1.4rem;'>Tools:</p>
                             <ul class="text-center">
                               <li><p>Figma, React, Node, Express, HTML,CSS, JS, MySQL, GitHub</p></li>
                             </ul>
