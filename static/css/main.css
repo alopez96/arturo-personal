@@ -242,7 +242,7 @@ ul {
 .project-img{
   height: 40vh;
   object-fit: contain;
-  border-radius: 1rem;
+  border-radius: 0.2rem;
 }
 
 .my-row{
