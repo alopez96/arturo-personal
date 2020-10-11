@@ -116,22 +116,18 @@ p{
 }
 
 
-.clear-filter[filter-color=pink-blue] {
-  background: rgba(0,38,160,.2);
-  /* background: linear-gradient(0deg,rgba(146, 106, 130, 0.2),rgba(0,38,160,.6)); */
-  background: linear-gradient(0deg,#00A3FE,#00186F);
-}
+/* .clear-filter[filter-color=pink-blue] {
+  background: linear-gradient(130deg, #00186F, #00A3FE);
+} */
 
 #gradient
 {
-    border:1px solid black;
-    font-size:30px;
     background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
     background-size: 200% 200%;
 
-    -webkit-animation: Animation 5s ease infinite;
-    -moz-animation: Animation 5s ease infinite;
-    animation: Animation 5s ease infinite;
+    -webkit-animation: Animation 15s ease infinite;
+    -moz-animation: Animation 15s ease infinite;
+    animation: Animation 15s ease infinite;
 }
 
 @-webkit-keyframes Animation {
@@ -166,35 +162,7 @@ body{
   font-family:  Arial, Helvetica, sans-serif;
 }
 
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-container2 {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.flex-container2 img{
-  width:150px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 #my-story-header{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flex-container img{
-  width:20%;
-  height: auto;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -286,20 +254,28 @@ ul {
   text-align: center;
 }
 
+.why-container{
+  background-color: transparent;
+  color:#797979;
+  margin: 5rem 15rem 5rem 15rem;
+  text-align: center;
+}
+
+.why-container h2{
+  color:black;
+}
+
+
 .skill-container{
   border-radius: 1rem;
-  width: 32%;
+  width: 48%;
   padding: 4rem 1.5rem 2rem 1.5rem;
   background-color: transparent;
+  color:#797979;
 }
 
 .skill-container h2{
-  /* color: rgba(0, 132, 255, 0.589); */
   color: black;
-}
-
-.skill-container{
-  color:#797979;
 }
 
 .skill-container li{
@@ -320,6 +296,13 @@ ul {
 @media (max-width: 460px){
   #h1-seo{
     font-size: 2rem;
+  }
+
+  .why-container{
+    background-color: transparent;
+    color:#797979;
+    margin: 5rem 1rem 5rem 1rem;
+    text-align: center;
   }
 
   .card-body{
