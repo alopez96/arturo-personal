@@ -243,6 +243,7 @@ ul {
   height: 40vh;
   object-fit: contain;
   border-radius: 0.2rem;
+  margin-right: 2rem;
 }
 
 .my-row{
