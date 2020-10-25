@@ -299,10 +299,11 @@ ul {
 }
 
 .testimonial-logo{
-  width: 5rem;
+  width: 6rem;
   height: auto;
   border-radius: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 460px){
