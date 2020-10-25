@@ -1,2 +1,6 @@
 # dependencies
 /node_modules
+
+# Desktop Service files for Mac
+.DS_Store
+static/.DS_Store

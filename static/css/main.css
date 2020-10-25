@@ -306,6 +306,12 @@ ul {
   margin-top: 2rem;
 }
 
+.my-images{
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 460px){
   #h1-seo{
     font-size: 2rem;
@@ -395,5 +401,9 @@ ul {
   .vl{
     border: 1px solid #e4e4e4;
     height: auto;
+  }
+
+  .my-images{
+    width: 100vw;
   }
 }
