@@ -1,13 +1,9 @@
-.card-body p{
-  padding-top: 0.5rem;
-}
-
 .page-header-image{
   width: 10px;
 }
 
 .btn{
-  width: 15rem;
+  width: 12rem;
   font-size: 1.3rem;
 }
 
@@ -83,6 +79,14 @@ p{
 
 .title{
   font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sub-title{
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 .margin{
@@ -237,10 +241,13 @@ ul {
 
 .card-text h3{
   font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
 .card-text p{
   color: #797979;
+  line-height: 165%;
 }
 
 .project-img{
@@ -270,6 +277,9 @@ ul {
   color:black;
 }
 
+.why-container p{
+  line-height: 165%;
+}
 
 .skill-container{
   border-radius: 1rem;
@@ -316,6 +326,11 @@ ul {
   #h1-seo{
     font-size: 2rem;
   }
+
+  .title{
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+  }  
 
   #home-btn{
     background-color: #000;
@@ -364,7 +379,7 @@ ul {
   }  
 
   .btn{
-    width: 13rem;
+    width: 12rem;
     text-align: center;
   }
 
@@ -405,5 +420,9 @@ ul {
 
   .my-images{
     width: 100vw;
+  }
+
+  .why-container p{
+    line-height: 150%;
   }
 }
