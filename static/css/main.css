@@ -5,6 +5,7 @@
 .btn{
   width: 12rem;
   font-size: 1.3rem;
+  font-family: 'Jost', sans-serif;
 }
 
 #text1{
@@ -75,6 +76,11 @@ p{
 .experience ul {
   list-style: none;
   padding-left: 0;
+}
+
+.services-color{
+  color:#00A3FE; 
+  font-family: 'Jost', sans-serif;
 }
 
 .title{
@@ -247,7 +253,12 @@ ul {
 
 .card-text p{
   color: #797979;
-  line-height: 165%;
+  line-height: 150%;
+}
+
+p{
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Noto Serif', serif;
 }
 
 .project-img{
