@@ -284,8 +284,20 @@ p{
   text-align: center;
 }
 
+.testimonial{
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .why-container h2{
   color:black;
+}
+
+.why-container h6,a{
+  letter-spacing: 1.2px;
 }
 
 .why-container p{
