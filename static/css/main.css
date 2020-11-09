@@ -49,8 +49,8 @@ p{
 }
 
 #selfie img{
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -415,7 +415,7 @@ p{
   }
 
   .project-img{
-    height: 40vh;
+    height: 30vh;
     width: 60vw;
     text-align: center;
     margin-left: auto;
