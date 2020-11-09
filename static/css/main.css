@@ -137,6 +137,17 @@ p{
   transform: scale(1.1);
 }
 
+.contact-form{
+  width: 30px;
+  max-width: 50%;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
 #home h2{
   padding-bottom: 0%;
@@ -365,13 +376,13 @@ p{
   margin-right: auto;
 }
 
-@media (max-width: 460px){
+@media (max-width: 500px){
   #white-back{
     background-color:blue !important;
   }
 
   .about-text p{
-    width: 400px;
+    width: auto;
   }
 
   #h1-seo{
