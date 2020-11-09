@@ -138,14 +138,11 @@ p{
 }
 
 .contact-form{
-  width: 30px;
-  max-width: 50%;
-  text-align: center;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  margin-right: auto;
+  max-width: 300px;
+  display: block;
   margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
 }
 
 
