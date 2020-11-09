@@ -22,6 +22,10 @@ p{
   padding-left: 100px;
 }
 
+.light-gray{
+  background-color: #f5f5f5;
+}
+
 .faq{
   background-color: #DCDCDC;
 }
@@ -150,7 +154,8 @@ p{
 
 #gradient
 {
-    background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
+      background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
+      /* background: linear-gradient(130deg, #424242, #acacac, #424242); */
     background-size: 200% 200%;
 
     -webkit-animation: Animation 15s ease infinite;
@@ -233,9 +238,6 @@ ul {
   background-color: #f8f8f8;
 }
 
-.section{
-  background-color: transparent;
-}
 
 .about-text{
   margin: 2rem;
