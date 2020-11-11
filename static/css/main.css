@@ -162,7 +162,7 @@ p{
 
 #gradient
 {
-      background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
+      background: linear-gradient(130deg, #00186F, #00A3FE);
       /* background: linear-gradient(130deg, #424242, #818181); */
     background-size: 200% 200%;
 
