@@ -429,7 +429,7 @@ p{
 
   .title{
     font-size: 1.6rem;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }  
 
   #home-btn{
@@ -473,6 +473,7 @@ p{
   
   .card-text p{
     color: #797979;
+    margin: 0 2rem;
   }  
 
   .btn{
