@@ -134,6 +134,7 @@ p{
 
 .blue-mark{
   color:#00A3FE;
+  text-shadow: 2px 2px rgba(224, 224, 224, 0.2);
 }
 
 .sub-title{
@@ -331,7 +332,7 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
 }
 
@@ -369,7 +370,6 @@ p{
 }
 
 .skill-container{
-  border-radius: 1rem;
   width: 48%;
   padding: 100px 80px;
   background-color: transparent;
@@ -547,18 +547,11 @@ p{
     flex-direction: column;
     justify-content: center;
     /* border: 2px solid #e4e4e4; */
-    border-radius: 1rem;
+    border-radius: 5px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     /* text-align: center; */
     box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
-  }
-  
-  .skill-container{
-    border-radius: 1rem;
-    width: 100%;
-    padding: 2rem 2rem 2rem 2rem;
-    background-color: transparent;
   }
   
   .vl{
@@ -577,5 +570,24 @@ p{
   .about-card{
     border-radius: 0;
     box-shadow: none;
+  }
+
+  .checklist{
+    padding: 100px 50px;
+  }
+  
+  .checklist h3{
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+  
+  .checklist li{
+    margin: 10px 0;
+  }
+
+  .skill-container{
+    border-radius: 0;
+    width: 100%;
+    padding: 100px 50px;
   }
 }
