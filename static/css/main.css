@@ -110,6 +110,7 @@ p{
   font-size: 2rem;
   /* text-transform: uppercase; */
   font-weight: 400;
+  color: rgb(53, 53, 53);
 }
 
 .checklist{
@@ -171,16 +172,13 @@ p{
   overflow-x: hidden;
 }
 
-
-#home h2{
-  padding-bottom: 0%;
-  text-align: center;
+.uppercase{
+  text-transform: uppercase;
 }
 
 .right{
   text-align: right;
 }
-
 
 /* .clear-filter[filter-color=pink-blue] {
   background: linear-gradient(130deg, #00186F, #00A3FE);
@@ -233,7 +231,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.about li{
+.checklist li{
   font-family:  Arial, Helvetica, sans-serif;
 }
 
@@ -339,7 +337,8 @@ p{
 .why-container{
   background-color: transparent;
   color:#797979;
-  margin: 3rem 15rem 5rem 15rem;
+  margin: 80px 0;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -350,15 +349,21 @@ p{
   min-height: 90vh;
 }
 
+.testimonial-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .testimonial-card{
   box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
   border-radius: 8px;
   padding: 15px 5px;
-  margin: 20px 0px;
-}
-
-.why-container h2{
-  color:black;
+  margin: 20px 20px;
+  width: 40vw;
+  min-height: 80vh;
+  position: relative;
 }
 
 .why-container h6,a{
@@ -367,6 +372,18 @@ p{
 
 .why-container p{
   line-height: 165%;
+}
+
+.testimonial-card-name{
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fake-link {
+  text-decoration: none;
+  color: #1e70bf;
 }
 
 .skill-container{
