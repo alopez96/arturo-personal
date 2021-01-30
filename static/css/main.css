@@ -520,7 +520,7 @@ p{
   .why-container{
     background-color: transparent;
     color:#797979;
-    margin: 5rem 1rem;
+    margin: 5rem 1rem 10px 1rem;
   }
 
   .card-body{
@@ -606,6 +606,15 @@ p{
 
   .checklist{
     padding: 100px 50px;
+    width: 100%;
+  }
+
+  .checklist li{
+    margin: 10px 0;
+  }
+
+  .one-liner{
+    width: 100%;
   }
   
   .checklist h3{
