@@ -8,6 +8,12 @@
   font-family: 'Jost', sans-serif;
 }
 
+
+.info-cta{
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+}
+
 #text1{
   padding-top: 100px;
 }
@@ -131,6 +137,15 @@ p{
 
 .checklist li{
   margin: 10px 0;
+}
+
+#checklist-a{
+  color:#00A3FE;
+}
+
+.one-liner{
+  width: 600px; font-size: 18px;
+  margin: 20px 0;
 }
 
 .blue-mark{
