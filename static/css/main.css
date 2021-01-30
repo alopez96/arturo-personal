@@ -233,6 +233,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.helvetica{
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+.noto{
+  font-family: 'Noto Serif', serif;
+}
+
 .checklist li{
   font-family:  Arial, Helvetica, sans-serif;
 }
@@ -333,6 +341,7 @@ p{
   flex-direction: row;
   justify-content: center;
   border-radius: 5px;
+  margin-top: 20px;
   box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
 }
 
@@ -472,6 +481,29 @@ p{
   border-radius: 10px;
   box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
   padding: 10px 0;
+}
+
+.box-section{
+  background-color: transparent;
+  width: 70%;
+  padding: 50px 100px;
+  margin: 80px;
+  /* border: rgb(216, 216, 216) 5px solid; */
+  box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-section ul{
+  font-size: 1.2em;
+}
+
+.box-section ul li{
+  margin: 10px;
 }
 
 @media (max-width: 500px){
@@ -630,5 +662,11 @@ p{
     margin: 20px 40px;
     width: 100%;
     min-height: 95vh;
+  }
+
+  .box-section{
+    width: 90%;
+    padding: 50px 20px;
+    margin: 0;
   }
 }
