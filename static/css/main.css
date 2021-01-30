@@ -94,19 +94,6 @@ p{
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, gray));
 }
 
-.experience{
-    width: 100%;
-    height: auto;
-    position: relative;
-    color:black;
-    padding: 100px 0;
-}
-
-.experience ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 .services-color{
   color:#00A3FE;
   font-family: 'Jost', sans-serif;
@@ -605,8 +592,9 @@ p{
   }
 
   .checklist{
-    padding: 100px 50px;
+    padding: 50px 50px;
     width: 100%;
+    margin-bottom: 50px;
   }
 
   .checklist li{
@@ -629,7 +617,7 @@ p{
   .skill-container{
     border-radius: 0;
     width: 100%;
-    padding: 100px 50px;
+    padding: 50px 50px;
   }
 
   .testimonial-cards{
