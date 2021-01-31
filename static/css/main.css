@@ -563,8 +563,9 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     width: inherit;
+    margin: 0 2rem;
   }
   
   .card-text h3{
@@ -573,7 +574,6 @@ p{
   
   .card-text p{
     color: #797979;
-    margin: 0 2rem;
   }  
 
   .btn{
