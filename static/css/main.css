@@ -196,9 +196,9 @@ p{
     background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
     background-size: 200% 200%;
 
-    /* -webkit-animation: Animation 16s ease infinite;
+    -webkit-animation: Animation 16s ease infinite;
     -moz-animation: Animation 16s ease infinite;
-    animation: Animation 16s ease infinite; */
+    animation: Animation 16s ease infinite;
 }
 
 @-webkit-keyframes Animation {
