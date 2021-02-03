@@ -124,6 +124,7 @@ p{
 
 .checklist li{
   margin: 10px 0;
+  display: flex;
 }
 
 #checklist-a{
@@ -624,7 +625,7 @@ p{
   }
 
   .checklist{
-    padding: 50px 50px;
+    padding: 50px 40px;
     width: 100%;
     margin-bottom: 50px;
   }
