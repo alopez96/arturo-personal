@@ -1,7 +1,6 @@
 // every jquery must be inside $(function(){})
 // this waits for the elements on the DOM to load before you start to reference them
 $(function(){
-	$('#services').css('backgroundColor', 'red').slideUp().slideDown(1000)
 
 	$('.btn').click(function(){
 		$('html, body').animate({scrollTop:0}, 'slow');
