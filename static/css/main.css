@@ -194,12 +194,7 @@ p{
 
 #gradient
 {
-    background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
-    background-size: 200% 200%;
-
-    -webkit-animation: Animation 16s ease infinite;
-    -moz-animation: Animation 16s ease infinite;
-    animation: Animation 16s ease infinite;
+    background-color: #2CA8FF;
 }
 
 @-webkit-keyframes Animation {
@@ -278,9 +273,9 @@ ul {
 
 #home-btn{
   /* border: 2px solid white; */
-  background-color: #000;
-  background-color: white;
-  color:black;
+  
+  background-color: black;
+  color:white;
 }
 
 #projects{
@@ -675,4 +670,40 @@ p{
 
 #white-text{
   color:white;
+}
+
+.black{
+  background-color: #000;
+}
+
+
+.macbook{
+  width: 400px;
+  height: 400px;
+}
+
+.iphone{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+}
+
+@media (max-width: 500px){
+  .macbook{
+    margin-top: -30px;
+  }
+
+  .iphone{
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
 }
