@@ -696,6 +696,12 @@ p{
   position: absolute;
 }
 
+
+.right-arrow{
+  color:black;
+  font-size: 90px;
+}
+
 @media (max-width: 500px){
   .macbook{
     margin-top: -30px;
@@ -705,5 +711,9 @@ p{
     width: 300px;
     height: 300px;
     margin-top: 0px;
+  }
+
+  .right-arrow{
+    font-size: 40px;
   }
 }
