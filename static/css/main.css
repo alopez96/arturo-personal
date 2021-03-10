@@ -740,7 +740,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 20% 20%, 70% 20%;
+  background-position: 20% 10%, 70% 15%;
   background-repeat: no-repeat;
   background-size: 400px;
 }
@@ -750,9 +750,17 @@ html {
   text-transform: uppercase;
 }
 
+
+@media (max-width: 900px){
+  .parallax{
+    background-size: 320px;
+    background-position: 10% 15%, 80% 20%;
+  }
+}
+
 @media (max-width: 500px){
   .parallax{
-    background-size: 280px;
-    background-position: 30% 70%, 20% 30%;
+    background-size: 300px;
+    background-position: 50% 90%, 20% 25%;
   }
 }
