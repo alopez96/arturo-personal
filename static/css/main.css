@@ -316,7 +316,6 @@ ul {
 }
 
 .card-text p{
-  color: #797979;
   line-height: 150%;
 }
 
@@ -343,7 +342,6 @@ p{
 
 .why-container{
   background-color: transparent;
-  color:#797979;
   margin: 80px 0;
   padding-top: 30px;
   display: flex;
@@ -397,7 +395,6 @@ p{
   width: 48%;
   padding: 100px 80px;
   background-color: transparent;
-  color:#797979;
 }
 
 .skill-container h2{
@@ -570,11 +567,7 @@ p{
   
   .card-text h3{
     font-size: 1.6rem;
-  }
-  
-  .card-text p{
-    color: #797979;
-  }  
+  } 
 
   .btn{
     width: 12rem;
@@ -720,4 +713,9 @@ p{
   .right-arrow{
     font-size: 40px;
   }
+}
+
+
+.gray-text{
+  color:#5a5a5a;
 }
