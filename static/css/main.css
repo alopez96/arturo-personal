@@ -761,6 +761,6 @@ html {
 @media (max-width: 500px){
   .parallax{
     background-size: 300px;
-    background-position: 50% 90%, 20% 25%;
+    background-position: 50% 90%, 50% 25%;
   }
 }
