@@ -752,7 +752,7 @@ html {
 
 @media (max-width: 500px){
   .parallax{
-    background-size: 300px;
-    background-position: 20% 70%, 60% 20%;
+    background-size: 280px;
+    background-position: 20% 30%, 60% 90%;
   }
 }
