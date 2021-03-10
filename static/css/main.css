@@ -721,3 +721,8 @@ p{
 .gray-text{
   color:#5a5a5a;
 }
+
+
+html {
+  scroll-behavior: smooth;
+}
