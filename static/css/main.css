@@ -832,19 +832,19 @@ body::after{
 .container .card .content{
   padding: 20px;
   text-align: center;
-  transform: translateY(100px);
+  /* transform: translateY(100px);
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.5s; */
 }
 
 .container .card:hover .content{
-  transform: translateY(0px);
-  opacity: 1;
+  /* transform: translateY(0px);
+  opacity: 1; */
 }
 
 .container .card .content h2{
   position: absolute;
-  top: -80px;
+  top: -10px;
   right: 30px;
   font-size: 6rem;
   color: rgb(225, 225, 225, 0.5);
@@ -861,4 +861,16 @@ body::after{
   font-size: 1rem;
   color: white;
   font-weight: 300;
+}
+
+
+@media (max-width: 500px){
+  .hero-flex{
+    flex-direction: column-reverse;
+  }
+  .container .card{
+    width: 280px;
+    height: 200px;
+    margin: 30px;
+  }
 }
