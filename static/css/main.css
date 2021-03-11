@@ -449,7 +449,7 @@ p{
 }
 
 #h2-seo{
-  font-size: 32px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -740,7 +740,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 20% 2%, 70% 55%;
+  background-position: 20% 2%, 70% 10%;
   background-repeat: no-repeat;
   background-size: 400px;
 }
@@ -750,17 +750,22 @@ html {
   text-transform: uppercase;
 }
 
+.margin{
+  margin-top: 100px;
+}
+
 
 @media (max-width: 900px){
   .parallax{
-    background-size: 320px;
-    background-position: 10% 15%, 80% 20%;
+    display: none;
+  }
+  .margin{
+    margin-top: 0;
   }
 }
 
 @media (max-width: 500px){
   .parallax{
-    background-size: 300px;
-    background-position: 50% 90%, 50% 25%;
+    display: none;
   }
 }
