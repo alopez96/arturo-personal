@@ -844,8 +844,9 @@ body::after{
 
 .container .card .content h3{
   font-size: 1.6rem;
-  color: white;
+  color: rgba(225, 225, 225, 0.856);
   z-index: 1;
+  pointer-events: none;
 }
 
 .container .card .content p{
