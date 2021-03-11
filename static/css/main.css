@@ -852,20 +852,20 @@ body::after{
 }
 
 .container .card .content h3{
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: white;
   z-index: 1;
 }
 
 .container .card .content p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   font-weight: 300;
 }
 
 
 .container .card .content .card-pic{
-  width: 100px;
+  width: 130px;
 }
 
 
@@ -891,5 +891,9 @@ body::after{
 
   .container .card .content p{
     display: none;
+  }
+
+  .container .card .content .card-pic{
+    width: 100px;
   }
 }
