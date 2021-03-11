@@ -132,7 +132,7 @@ p{
 }
 
 .one-liner{
-  width: 600px; font-size: 18px;
+  width: 100%;
   margin: 20px 0;
 }
 
@@ -194,12 +194,7 @@ p{
 
 #gradient
 {
-    background: linear-gradient(130deg, #00186F, #00A3FE, #00186F);
-    background-size: 200% 200%;
-
-    -webkit-animation: Animation 16s ease infinite;
-    -moz-animation: Animation 16s ease infinite;
-    animation: Animation 16s ease infinite;
+    background-color: #2CA8FF;
 }
 
 @-webkit-keyframes Animation {
@@ -278,9 +273,9 @@ ul {
 
 #home-btn{
   /* border: 2px solid white; */
-  background-color: #000;
-  background-color: white;
-  color:black;
+  
+  background-color: black;
+  color:white;
 }
 
 #projects{
@@ -321,7 +316,6 @@ ul {
 }
 
 .card-text p{
-  color: #797979;
   line-height: 150%;
 }
 
@@ -348,7 +342,6 @@ p{
 
 .why-container{
   background-color: transparent;
-  color:#797979;
   margin: 80px 0;
   padding-top: 30px;
   display: flex;
@@ -402,7 +395,6 @@ p{
   width: 48%;
   padding: 100px 80px;
   background-color: transparent;
-  color:#797979;
 }
 
 .skill-container h2{
@@ -457,7 +449,7 @@ p{
 }
 
 #h2-seo{
-  font-size: 32px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -486,17 +478,23 @@ p{
 
 .box-section{
   background-color: transparent;
-  width: 70%;
+  width: 80%;
   padding: 50px 100px;
   margin: 80px;
-  /* border: rgb(216, 216, 216) 5px solid; */
   box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2);
+  font-size: 16px;
+}
+
+.box-section p{  
+  font-family: 'Jost', sans-serif;
 }
 
 .flex-center{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  /* background-color: red; */
 }
 
 .box-section ul{
@@ -521,7 +519,8 @@ p{
   }
 
   #h2-seo{
-    font-size: 1.6rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
   }
 
   .hero-sub{
@@ -571,11 +570,7 @@ p{
   
   .card-text h3{
     font-size: 1.6rem;
-  }
-  
-  .card-text p{
-    color: #797979;
-  }  
+  } 
 
   .btn{
     width: 12rem;
@@ -675,4 +670,103 @@ p{
 
 #white-text{
   color:white;
+}
+
+.black-text{
+  color: #000;
+}
+
+
+.macbook{
+  width: 400px;
+  height: 400px;
+}
+
+.iphone{
+  width: 300px;
+  height: 300px;
+  
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+}
+
+
+.right-arrow{
+  color:white;
+  font-size: 90px;
+}
+
+@media (max-width: 500px){
+  .macbook{
+    margin-top: -30px;
+  }
+
+  .iphone{
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
+
+  .right-arrow{
+    font-size: 40px;
+  }
+}
+
+
+.gray-text{
+  color:#5a5a5a;
+}
+
+.black-text{
+  color: #000;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("./../images/hero-pics/iphone.png"),  url("./../images/hero-pics/macbook-new.png");
+
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 20% 2%, 70% 10%;
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+
+.huge-text{
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.margin{
+  margin-top: 100px;
+}
+
+
+@media (max-width: 900px){
+  .parallax{
+    display: none;
+  }
+  .margin{
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .parallax{
+    display: none;
+  }
 }
