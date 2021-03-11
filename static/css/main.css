@@ -740,7 +740,7 @@ html {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: 20% 10%, 70% 15%;
+  background-position: 20% 2%, 70% 55%;
   background-repeat: no-repeat;
   background-size: 400px;
 }
