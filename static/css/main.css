@@ -771,15 +771,13 @@ html {
   }
 }
 
-
-
-
 .hero-flex{
   display: flex;
   flex-direction: row;
 }
 
 
+/* circle on hero section */
 body::before{
   content: '';
   position: absolute;
@@ -791,6 +789,7 @@ body::before{
   clip-path: circle(30% at right 70%);
 }
 
+/* circle on hero section */
 body::after{
   content: '';
   position: absolute;
@@ -803,6 +802,7 @@ body::after{
 }
 
 
+/*------------ glassmorphism card start ------------*/
 .container .card{
   position: relative;
   width: 280px;
@@ -828,10 +828,10 @@ body::after{
   transition: 0.5s; */
 }
 
-.container .card:hover .content{
-  /* transform: translateY(0px);
-  opacity: 1; */
-}
+/* .container .card:hover .content{
+  transform: translateY(0px);
+  opacity: 1;
+} */
 
 .container .card .content h2{
   position: absolute;
@@ -889,3 +889,5 @@ body::after{
     width: 100px;
   }
 }
+
+/*------------ glassmorphism card end ------------*/
