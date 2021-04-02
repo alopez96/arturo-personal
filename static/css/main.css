@@ -131,11 +131,6 @@ p{
   color:#00A3FE;
 }
 
-.one-liner{
-  width: 100%;
-  margin: 20px 0;
-}
-
 .blue-mark{
   color:#00A3FE;
   text-shadow: 2px 2px rgba(224, 224, 224, 0.2);
@@ -393,7 +388,7 @@ p{
 
 .skill-container{
   width: 48%;
-  padding: 100px 80px;
+  padding: 100px 40px;
   background-color: transparent;
 }
 
@@ -408,7 +403,6 @@ p{
 
 .skill-container p{
   margin-top: 17px;
-  font-size: 1.2rem;
 }
 
 .vl{
@@ -645,7 +639,7 @@ p{
   .skill-container{
     border-radius: 0;
     width: 100%;
-    padding: 50px 50px;
+    padding: 50px 25px;
   }
 
   .testimonial-cards{
@@ -889,4 +883,17 @@ body::after{
   .container .card .content .card-pic{
     width: 100px;
   }
+}
+
+
+.large-text{
+  font-size: 3rem;
+}
+
+.medium-text{
+  font-size: 1.7rem;
+}
+
+.small-text{
+  font-size: 1.2rem;
 }
