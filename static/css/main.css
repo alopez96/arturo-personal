@@ -823,10 +823,10 @@ body::after{
   transition: 0.5s; */
 }
 
-.container .card:hover .content{
-  /* transform: translateY(0px);
-  opacity: 1; */
-}
+/* .container .card:hover .content{
+  transform: translateY(0px);
+  opacity: 1;
+} */
 
 .container .card .content h2{
   position: absolute;
