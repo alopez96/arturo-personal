@@ -554,12 +554,25 @@
 <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
 
 <script type="text/javascript">
-	VanillaTilt.init(document.querySelectorAll(".card"), {
-		max: 25,
-		speed: 400,
-    glare: true,
-    "max-glare": 1,
-	});
+	
+  // define variables
+  var touchDevice
+
+  // check if it's a touch device (phone, ipad)
+  touchDevice = ('ontouchstart' in document.documentElement);
+
+  // only activate tilt on card, if its not mobile
+  if(!touchDevice){
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+    console.log('tilt is active')
+  } else {
+    console.log('tilt is inactive')
+  }
 
 </script>
 
