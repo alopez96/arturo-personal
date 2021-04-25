@@ -1,2 +1,6 @@
-This is my current source code to my personal website where I showcase web develpopment work.
-The implementation uses HTML, CSS, and a bootstrap kit by timcreative.
+## Arturo Creates
+This is the source code to my business website: arturoceates.com.
+
+
+#### Implementation
+This contains HTML, CSS, and JavaScript

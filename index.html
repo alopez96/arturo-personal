@@ -57,7 +57,9 @@
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
   crossorigin="anonymous"></script>
-  <script src="./mixpanel.js?1"></script>
+
+  <!-- mixpanel is no longer in use. I am leaving here for future reference to code. -->
+  <!-- <script src="./mixpanel.js?1"></script> -->
 
   <style>
     .navbar .navbar-nav .nav-link:not(.btn) i.fa{
@@ -148,14 +150,16 @@
                   
                   <div>
                   <h2 class="h1-seo animated fadeInLeft" id='h1-seo'>
-                    Get your website or mobile app
+                    <!-- Intuitive websites for your business -->
+                    Intuitive websites and mobile apps
                     <!-- <span class="right-arrow">&rarr;</span> -->
                   </h2>
                   <p class="animated fadeInRight hero-sub" id='h2-seo'>
                     <!-- If you want to launch a website or an app on the App store, I can help.  -->
                     <!-- I help business owners show up for their customers with an App or Website so they feel confident in establishing their digital presence. -->
                     <!-- I help business owners show up for their customers with an App or Website. -->
-                    I help small businesses gain credibility with their customers with an effective website.
+                    <!-- I help small businesses gain credibility with their customers with a custom website. -->
+                    I create websites and apps for small businesses so that they can gain credibility with their customers.
                   </p>
                   
                   <!-- Direct CTA -->
@@ -492,15 +496,14 @@
           </div>
 
           <div class='light-gray'>
-          <div id='contact' class="contact-form uppercase">
+            <button onclick="sendMail()">Send Mail</button>
+          <!-- <div id='contact' class="contact-form uppercase">
             <h2 class="title text-center">Contact</h2>
             <div>
               <div class="elfsight-app-0755b15d-c9f9-41e7-8477-382ba09290d4"></div>
             </div>
+          </div> -->
           </div>
-          </div>
-
-          <button onclick="sendMail()">Send Mail</button>
 
           <!-- <div class="elfsight-app-fc05a834-0653-4c11-b705-db3c06d1e0d8 email-btn"></div> -->
 
@@ -579,7 +582,7 @@
 </script>
 
 
-<script type="text/javascript" src="./mail.js">
+<script type="text/javascript" src="./js/mail.js">
 </script>
 
 </body>
@@ -597,9 +600,6 @@
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="https://cdn.rawgit.com/creativetimofficial/now-ui-kit/2e8e665f/assets/js/now-ui-kit.js"></script>
 
-<script src="anime.min.js"></script>
-<script type="text/javascript" src ="server2.js">
-
-</script>
+<script src="./js/anime.min.js"></script>
 
 </html>

@@ -1,3 +1,6 @@
+/*
+mixpanel is no longer in use. I am leaving here for future reference to code.
+*/
 
 //Method to track nav button clicks
 //input: string (btn) - github or linkedIn clicked
