@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mailgun-js": "^0.22.0",
-    "requirejs": "^2.3.6"
+    "mailgun-js": "^0.22.0"
   }
 }
