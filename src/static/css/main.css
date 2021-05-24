@@ -361,6 +361,7 @@ p{
 .testimonial-cards{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -370,8 +371,8 @@ p{
   border-radius: 8px;
   padding: 15px 5px;
   margin: 20px 40px;
-  width: 40vw;
-  min-height: 80vh;
+  width: 400px;
+  min-height: 500px;
   position: relative;
 }
 
@@ -658,9 +659,9 @@ p{
   .testimonial-card{
     border-radius: 4px;
     padding: 0px 0px;
-    margin: 20px 40px;
-    width: 100%;
-    min-height: 95vh;
+    margin: 20px 0;
+    width: 95vw;
+    min-height: 400px;
   }
 
   .box-section{
