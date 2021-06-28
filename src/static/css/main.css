@@ -809,8 +809,8 @@ body::after{
 
 .container .card{
   position: relative;
-  width: 280px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: 30px;
   box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -826,7 +826,7 @@ body::after{
 }
 
 .container .card .content{
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   /* transform: translateY(100px);
   opacity: 0;
@@ -865,6 +865,14 @@ body::after{
   width: 130px;
 }
 
+#card-pic{
+  width: 330px;
+  border-radius: 15px;
+  height: 240px;
+  object-fit: cover;
+  border-top: 1px solid rgb(225, 225, 225, 0.5);
+  border-left: 1px solid rgb(225, 225, 225, 0.5);
+}
 
 @media (max-width: 500px){
   .hero-flex{
@@ -873,7 +881,7 @@ body::after{
 
   .container .card{
     width: 240px;
-    height: 250px;
+    height: 200px;
     margin: 30px;
     box-shadow: 1px 1px 50px rgb(0, 0, 0, 0.5);
   }
@@ -893,6 +901,11 @@ body::after{
 
   .container .card .content .card-pic{
     width: 100px;
+  }
+
+  #card-pic{
+    width: 350px;
+    height: 170px;
   }
 }
 
