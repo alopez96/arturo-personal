@@ -450,11 +450,13 @@ p{
 #h1-seo{
   font-size: 2.7rem;
   margin-bottom: 20px;
+  text-transform: none;
 }
 
 #h2-seo{
   font-size: 1.6rem;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .hero-sub{
