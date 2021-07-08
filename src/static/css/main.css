@@ -922,3 +922,11 @@ body::after{
 .small-text{
   font-size: 1.2rem;
 }
+
+.blue{
+  color:#00A3FE;
+}
+
+.bold{
+  font-weight: 600;
+}
